@@ -14,12 +14,7 @@ def print_table(title, headers, rows):
     print(f"Total count: {len(rows)}\n")
 
 # Database connection info
-target_host = "notify.pesuacademy.com"
-target_port = 27017
-target_username = "admin"
-target_password = "Ayotta@123"
-target_auth_db = "admin"
-target_db_name = "resumes_database"
+
 
 client = MongoClient(
     host=target_host,
